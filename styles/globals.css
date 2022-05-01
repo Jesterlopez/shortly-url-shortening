@@ -1,0 +1,29 @@
+:root {
+  --color-cyan: #2acfcf;
+  --color-red: #f46262;
+  --dark-violet: #3b3054;
+  --gray: #bfbfbf;
+  --grayish-violet: #9e9aa7;
+  --very-dark-blue: #35323e;
+  --very-dark-violet: #232127;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background: #f0f1f6;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
