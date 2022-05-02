@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   background: #fff;
+  position: relative;
 }
 
 .navbar__logo {
@@ -389,8 +390,9 @@
   }
 
   .col__right {
-    width: 85%;
+    width: 100%;
     order: 1;
+    margin-bottom: 10%;
   }
 
   .left__title {
@@ -412,7 +414,7 @@
   }
 
   .section__name h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .section__name p {
@@ -423,6 +425,7 @@
   .section__services {
     flex-wrap: wrap;
     padding: 50% 0;
+    justify-content: center;
   }
 
   .cardgroup {
@@ -440,7 +443,7 @@
   }
 
   .cardgroup__content {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .detailed {
@@ -466,7 +469,201 @@
   }
 
   .section__footer h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .footer__left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .footer__center {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .footer__menu {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .footer__right {
+    width: 100%;
+  }
+
+  .footer__social {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .navbar {
+    padding: 4%;
+  }
+
+  .navbar__left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar__right {
+    position: absolute;
+    z-index: 9;
+    width: calc(100% - 8%);
+    top: 64px;
+    padding: 3rem 20px;
+    flex-direction: column;
+    background: var(--dark-violet);
+    border-radius: 5px;
+    transform: translateX(108%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .menu__open {
+    transform: translateX(0%);
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar .menu__item {
+    padding: 5% 0;
+  }
+
+  .navbar .menu__item a {
+    color: #fff;
+  }
+
+  .button__menu {
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  .navbar__login {
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid #463C5F;
+  }
+
+  .button__navbar__login {
+    padding: 1rem 0;
+  }
+
+  .button__navbar__login a {
+    color: #fff;
+  }
+
+  .button__navbar a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .col__left {
+    width: 100%;
+    order: 2;
+    text-align: center;
+  }
+
+  .col__right {
+    width: 100%;
+    order: 1;
+    margin-bottom: 10%;
+  }
+
+  .left__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .left__content {
+    font-size: .9rem;
+  }
+
+  .section__home {
+    padding-bottom: 10rem;
+  }
+
+  .statistics {
+    padding: 10% 0;
+  }
+
+  .section__name h3 {
+    font-size: 2rem;
+  }
+
+  .section__name p {
+    font-size: .9rem;
+    width: 100%;
+  }
+
+  .section__services {
+    flex-wrap: wrap;
+    padding: 30% 0;
+    justify-content: center;
+  }
+
+  .cardgroup {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .cardgroup__image {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .cardgroup__title {
+    font-size: 1.2rem;
+  }
+
+  .cardgroup__content {
+    font-size: 1rem;
+  }
+
+  .detailed {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .detailed::before {
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .detailed::after {
+    bottom: -12%;
+    left: 50%;
+    top: inherit;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .section__footer {
+    padding: 20% 5%;
+  }
+
+  .section__footer h3 {
+    font-size: 1.8rem;
   }
 
   .footer {

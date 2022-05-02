@@ -162,3 +162,53 @@ input.error {
     font-weight: 500;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .searchbox {
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+
+  .searchbox__input {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .searchbox__input input {
+    padding: 0.5rem;
+  }
+
+  .search__input_message {
+    bottom: -1rem;
+  }
+
+  .searchbox_button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .search__result_item {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .search__result_item__pagelink {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    padding: 0.7rem;
+  }
+
+  .search__result_item__shortenlink {
+    width: 100%;
+    padding: 0.8rem 1rem;
+  }
+
+  .search__result__button {
+    width: 100%;
+    margin: 0 1rem 1rem;
+    text-align: center;
+    font-weight: 500;
+  }
+}

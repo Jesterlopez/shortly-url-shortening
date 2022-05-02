@@ -16,6 +16,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
   background: #f0f1f6;
