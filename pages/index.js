@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import Head from "next/head"
 import Image from "next/image"
 import ShortBox from "../components/ShortBox/ShortBox"
-import styles from '../styles/home.module.css'
+import styles from '../styles/LandingPage.module.css'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)

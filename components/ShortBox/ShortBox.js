@@ -3,7 +3,7 @@ import useLocalStorage from '../../hooks/useLocalStorage'
 
 import Loader from '../Loader/Loader'
 
-import styles from '../../styles/home.module.css'
+import styles from '../../styles/Shortbox.module.css'
 import { shortLink } from '../../utils/shortLink'
 
 const MSGS = {

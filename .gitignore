@@ -33,3 +33,5 @@ yarn-error.log*
 
 # Readme
 README-template.md
+
+.vercel
